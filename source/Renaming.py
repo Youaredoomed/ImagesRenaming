@@ -27,12 +27,12 @@ class tkGUI():
         self.root.mainloop()
 
     def gui(self):
-        '''
-        #TODO : 메뉴 만들기
+        #TODO: 메뉴 구성
         menu = tk.Menu(self.root)
-        menu.add_checkbutton(label="File")
+        menu.add_cascade(label="Help")
+
         self.root.config(menu=menu)
-        '''
+
 
         # 위젯 구성
         frameList = tk.Frame(self.root, takefocus=True, background="blue")
